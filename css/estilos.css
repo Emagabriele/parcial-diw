@@ -1,0 +1,96 @@
+body{
+    font-family: fuenteTitulos;
+}
+
+h1{
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+header nav ul{
+    background-color: #eb1737;
+}
+
+header nav ul li{
+    color: #ffffff;
+    transition: all 1s;
+}
+
+header nav ul li:hover{
+    color: #eb1737;
+    background-color: #ffffff;
+}
+
+section:nth-of-type(2) h2{
+    color: #006491;
+}
+
+span{
+    color: #eb1737;
+}
+
+section:nth-of-type(1){
+    background-color: #006491;
+}
+
+section:nth-of-type(2) a{
+    display: block;
+    background-color: #eb1737;
+    color: white;
+    width: 100%;
+    height: 40px;
+    padding: 6px;
+    text-align: center;
+    text-decoration: none;
+}
+
+section:nth-of-type(3){
+    background-image: url("/img/fondo.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 20vh;
+}
+
+section:nth-of-type(4){
+    background-color: #eb1737;
+}
+section:nth-of-type(4) h2, section:nth-of-type(4) p{
+    color: #ffffff;
+}
+
+section:nth-of-type(5) h2{
+    color: #006491;
+}
+
+form input{
+    border-color: #006491;
+}
+
+form select{
+    border-color: #006491;
+}
+form textarea{
+    border-color: #006491;
+    height: 70px;
+}
+
+form input[type="submit"]{
+    background-color: #006491;
+    color: white;
+}
+
+footer{
+    background-color: #eb1737;
+    color: #ffffff;
+}
+
+section:nth-of-type(5) figure img{
+    border: solid 4px black;
+}
+
+@font-face {
+    font-family: fuenteTitulos;
+    src: url("../fonts/bebas.ttf");
+}
+
